@@ -1,14 +1,21 @@
 .deskPlan {
     margin: 20px auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 #managers-offices {
-    /*position: relative;*/
-    height: 50px;
-    width: 100px;
-    border-color: black;
-    padding: 10px;
+    display:flex;
     float:left;
+    height: 50px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
     background-color: blue;
+    justify-content: center;
+}
+.AM-office {
+    margin-left: 20px;
+}
+.GOS-office {
+    margin-left: 20px;
 }

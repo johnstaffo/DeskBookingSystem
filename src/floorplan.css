@@ -1,0 +1,14 @@
+.deskPlan {
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#managers-offices {
+    /*position: relative;*/
+    height: 50px;
+    width: 100px;
+    border-color: black;
+    padding: 10px;
+    float:left;
+    background-color: blue;
+}

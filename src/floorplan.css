@@ -1,21 +1,32 @@
-.deskPlan {
-    margin: 20px auto;
-    width: 100%;
-}
-
-#managers-offices {
+#offices {
     display:flex;
-    float:left;
-    height: 50px;
-    width: 250px;
+    float:center;
+    height: 75px;
+    width: 300px;
     border: 2px solid black;
     padding: 5px;
-    background-color: blue;
     justify-content: center;
+    div-align:center;
+    margin:5px;
+    margin-right:20px;
+    margin-bottom: 50px;
 }
-.AM-office {
-    margin-left: 20px;
+
+.managers {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: purple;
 }
-.GOS-office {
-    margin-left: 20px;
+
+body {
+    background-color: red;
+}
+
+.desk {
+    display: flex;
+    float:left;
+    background-color: white;
+    border: 2px solid black;
+    height: 50px;
+    width: 75px;
 }
